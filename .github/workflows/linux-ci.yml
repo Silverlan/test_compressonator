@@ -34,6 +34,7 @@ jobs:
       - name: Build Compressonator
         shell: bash
         run: |
+          sudo apt install freeglut3-dev
           git clone https://github.com/GPUOpen-Tools/compressonator.git
           cd compressonator
           cd build
