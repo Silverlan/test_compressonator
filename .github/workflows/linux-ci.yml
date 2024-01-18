@@ -37,7 +37,7 @@ jobs:
           git clone https://github.com/GPUOpen-Tools/compressonator.git
           cd compressonator
           cd build
-          initsetup_ubuntu.sh
+          sh initsetup_ubuntu.sh
           python fetch_dependencies.py
           cmake .
           
